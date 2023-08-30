@@ -1,0 +1,34 @@
+.concolor {
+    color: greenyellow !important;
+        }
+
+.textocolor {color:azure !important;
+}
+.container-fluid {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.titulo-dentro {
+    position: absolute; 
+    top: 15%; 
+    left:500px; 
+    color: azure !important; 
+}
+.texto-derecha {
+    position: absolute;
+    top: 10%; 
+    left: -15%; 
+    color: azure !important; 
+
+}
+.oscura { 
+    filter: brightness(60%);
+}
+.btnshop {
+    position: absolute; 
+    top: 25%; 
+    left:10%;
+    background-color: transparent !important;
+    color :white !important;  
+}
