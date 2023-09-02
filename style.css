@@ -9,6 +9,7 @@
     display: inline-block;
     text-align: center;
 }
+
 .titulo-dentro {
     position: absolute; 
     top: 15%; 
@@ -32,3 +33,76 @@
     background-color: transparent !important;
     color :white !important;  
 }
+
+.showcase {
+    background-color: white;
+  }
+
+  .grid1 {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 400px 100px;
+  }
+
+  .grid2 {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 300px 400px;
+  }
+
+  .grid3 {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 400px 300px 400px;
+  }
+
+  .grid-item-1,
+  .grid-item-2 {
+  position: relative;
+  top: 50px;
+  }
+
+  .grid-item-1-izquierda,
+  .grid-item-2-izquierda {
+  position:relative;
+  top: 50px;
+  }
+
+  .grid3-item-1-,
+  .grid3-item-2-, 
+  .grid3-item3 {
+  position:relative;
+  top: 50px;
+  }
+
+.showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+  }
+  
+  .btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: #9867C5;
+    border: none;
+    margin-left: 10px;
+    color: purple;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .seccion-final {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .seccion-final__parrafo {
+    border: 1px;
+    color: white;
+  }
+
+
