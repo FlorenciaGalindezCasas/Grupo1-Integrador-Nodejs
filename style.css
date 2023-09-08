@@ -68,6 +68,7 @@
   top: 50px;
   }
 
+  .grid3-item-0-,
   .grid3-item-1-,
   .grid3-item-2-, 
   .grid3-item3 {
@@ -106,3 +107,8 @@
   }
 
 
+  .grid4 {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 200px 400px 300px 400px;
+  }
