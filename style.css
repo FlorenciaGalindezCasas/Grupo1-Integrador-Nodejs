@@ -157,3 +157,14 @@
     background:#037E8C;
     font-weight:bold;
   }
+
+  .grid5 {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 400px 400px;
+  }
+
+  .input-centrado {
+    text-align: center
+    }
+
