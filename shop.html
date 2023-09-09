@@ -57,10 +57,14 @@
                                     <option value="3">Desordenado!!!</option> 
                                 </select>
                             </div>
-                            <div class="row">
+                            <div>
                                 <label> PRECIO </label>
-                                <label> MIN <input placeholder="0"> </label>
-                                <label> - MAX  <input placeholder="0"> </label>
+                            </div>
+                            <div class="input-precio">
+                                <label class="info-label">MIN</label>
+                                <input type="text" placeholder="0"  style="width : 30px; height: 30px;">
+                                <label class="info-label">- MAX</label>
+                                <input type="text" placeholder="0" style="width : 30px; height: 30px;"">
                             </div>
                             <label> FILTRAR </label>
                             <div>
@@ -235,7 +239,17 @@
 
         </main>
 
-
+		<section class="paginacion">
+			<ul>
+				<li><a href="#"><</a></li>
+				<li><a href="#" class="active">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">9</a></li>
+				<li><a href="#">10</a></li>
+				<li><a href="#">></a></li>
+			</ul>
+		</section>
 
 
         <footer>
