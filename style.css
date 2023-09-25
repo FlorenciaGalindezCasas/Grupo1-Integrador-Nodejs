@@ -1,114 +1,84 @@
-.concolor {
-    color: greenyellow !important;
-        }
-
-.textocolor {color:azure !important;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container-fluid {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+a{
+  text-decoration-line: none;
 }
 
-.titulo-dentro {
-    position: absolute; 
-    top: 15%; 
-    left:500px; 
-    color: azure !important; 
-}
-.texto-derecha {
-    position: absolute;
-    top: 10%; 
-    left: -15%; 
-    color: azure !important; 
-
-}
-.oscura { 
-    filter: brightness(60%);
-}
-.btnshop {
-    position: absolute; 
-    top: 25%; 
-    left:10%;
-    background-color: transparent !important;
-    color :white !important;  
+.container, img{
+  width:100%
 }
 
-.showcase {
-    background-color: white;
-  }
+.navbar-collapse{
+  justify-content: right;
+}
 
-  .grid1 {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 400px 100px;
-  }
+.nav-link{
+  color: white
+}
 
-  .grid2 {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 300px 400px;
-  }
+.banner{
+  background-image: url("img/funkos-banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
 
-  .grid3 {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 400px 300px 400px;
-  }
+.banner button{
+  width: 50%;
+  height: 7%;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+}
 
-  .grid-item-1,
-  .grid-item-2 {
-  position: relative;
-  top: 50px;
-  }
+.text{
+  display:flex;
+  flex-direction: column;
+  align-items: start ;
+  justify-content: center;
+  margin-left: 10%;
+  color:white;
+}
 
-  .grid-item-1-izquierda,
-  .grid-item-2-izquierda {
-  position:relative;
-  top: 50px;
-  }
+.logo img{
+  width: 100%;
+}
 
-  .grid3-item-0-,
-  .grid3-item-1-,
-  .grid3-item-2-, 
-  .grid3-item3 {
-  position:relative;
-  top: 50px;
-  }
+.coleccion{
+  justify-content:center;
+}
 
-.showcase input[type='email'] {
-    padding: 10px 70px 10px 0;
-    font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    padding-left: 6px;
-  }
+.coleccion-text{
+  border-bottom: 2px solid red;
   
-  .btn {
-    border-radius: 6px;
-    padding: 12px 20px;
-    background: #9867C5;
-    border: none;
-    margin-left: 10px;
-    color: purple;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  }
+}
+.coleccion button{
+  margin-top: 3%;
+  width: 190px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: black;
+  color:white;
+}
 
-  .seccion-final {
-    display: flex;
-    justify-content: space-around;
-  }
+.ultimos-lanzamientos{
+  margin-bottom: 5%
+}
 
-  .seccion-final__parrafo {
-    border: 1px;
-    color: white;
-  }
+span{
+  text-align:center;
+  background-color: red;
+  width:70px;
+  color:white;
+}
 
+.footer{
+  gap:1px
+}
 
-  .grid4 {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 200px 400px 300px 400px;
-  }
+.footer img{
+  width:70%
+}
