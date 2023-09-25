@@ -7,7 +7,7 @@ a{
   text-decoration-line: none;
 }
 
-.container, img{
+.container, .coleccion img{
   width:100%
 }
 
@@ -68,17 +68,17 @@ a{
   margin-bottom: 5%
 }
 
-span{
+.new{
   text-align:center;
   background-color: red;
   width:70px;
   color:white;
 }
 
-.footer{
-  gap:1px
+.isotype{
+  text-align: right
 }
 
 .footer img{
-  width:70%
+  width:50%
 }
