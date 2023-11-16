@@ -449,13 +449,27 @@ iconify-icon {
 }
  .cart-table {
    width: 100%; 
-      border: collapse;
+      border-collapse: collapse;
       margin-top: 20px;
  }
+ .cart-table tr {
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(0, 0, 0, 0.3);
+   background-color: #FAFAFF;
+   margin-top: 10px;
+ }
+
  .cart-table-header {
-   height: 51px;
-   border-radius: 1px solid #000;
+   padding: 10px;
+   text-align: left;
+   height: 40px;
+   width: 100%;
    font-weight: bold;
+ 
+ }
+ .cart-table-header-title {
+   text-align: center;
+   width: 33%;
  }
  .cart-picture {
    height: 118px;
